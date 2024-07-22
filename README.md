@@ -1,3 +1,3 @@
-- 👋 Hi, I’m florin
+- 👋 Hi, I’m Florin
 - 👀 I’m interested in using Figma and Github together
 - 🌱 I’m currently learning about that
