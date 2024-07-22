@@ -1,0 +1,153 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .body-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+}
+
+.desktop .body {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 902px;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+}
+
+.desktop .header {
+  display: flex;
+  height: 162px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0px 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--headline-backgroud);
+}
+
+.desktop .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: var(--h1-headline-font-family);
+  font-weight: var(--h1-headline-font-weight);
+  color: #000000;
+  font-size: var(--h1-headline-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-headline-letter-spacing);
+  line-height: var(--h1-headline-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-headline-font-style);
+}
+
+.desktop .card {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 32px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: var(--card-stroke);
+}
+
+.desktop .image {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  background-color: var(--branding-colour);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  width: 123px;
+  height: 110px;
+  top: 35px;
+  left: 30px;
+}
+
+.desktop .union {
+  position: absolute;
+  width: 123px;
+  height: 80px;
+  top: 29px;
+  left: 0;
+  mix-blend-mode: multiply;
+}
+
+.desktop .ellipse {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  top: 0;
+  left: 14px;
+  background-color: var(--branding-colour);
+  border-radius: 18.5px;
+  mix-blend-mode: multiply;
+}
+
+.desktop .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .div {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h2-headline-font-family);
+  font-weight: var(--h2-headline-font-weight);
+  color: #000000;
+  font-size: var(--h2-headline-font-size);
+  text-align: center;
+  letter-spacing: var(--h2-headline-letter-spacing);
+  line-height: var(--h2-headline-line-height);
+  white-space: nowrap;
+  font-style: var(--h2-headline-font-style);
+}
+
+.desktop .flexcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 369px;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.desktop .text {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.desktop .span {
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: #000000;
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}

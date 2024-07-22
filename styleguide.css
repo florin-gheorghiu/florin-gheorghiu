@@ -1,0 +1,23 @@
+:root {
+  --headline-backgroud: rgba(239, 239, 239, 1);
+  --branding-colour: rgba(79, 198, 235, 1);
+  --card-stroke: rgba(217, 217, 217, 1);
+  --h1-headline-font-family: "Arial", Helvetica;
+  --h1-headline-font-weight: 700;
+  --h1-headline-font-size: 32px;
+  --h1-headline-letter-spacing: 0px;
+  --h1-headline-line-height: normal;
+  --h1-headline-font-style: normal;
+  --h2-headline-font-family: "Arial", Helvetica;
+  --h2-headline-font-weight: 700;
+  --h2-headline-font-size: 24px;
+  --h2-headline-letter-spacing: 0px;
+  --h2-headline-line-height: normal;
+  --h2-headline-font-style: normal;
+  --paragraph-font-family: "Arial", Helvetica;
+  --paragraph-font-weight: 400;
+  --paragraph-font-size: 14px;
+  --paragraph-letter-spacing: 0px;
+  --paragraph-line-height: 22px;
+  --paragraph-font-style: normal;
+}
